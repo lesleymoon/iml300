@@ -1,0 +1,19 @@
+body {
+  color: #ffb700;
+  text-align: center;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* <-----index.html-----> */
+.index-head {
+  font-size: 50px;
+}
