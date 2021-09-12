@@ -1,6 +1,15 @@
+.index-body {
+  margin: 250px 70px 50px 90px;
+}
+
 body {
-  color: #ffb700;
+  color: #b12a25;
   text-align: center;
+  font-family: "Inconsolata", monospace;
+}
+
+h2 {
+  font-family: serif;
 }
 
 video {
@@ -13,7 +22,75 @@ video {
   z-index: -1;
 }
 
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
 /* <-----index.html-----> */
 .index-head {
-  font-size: 50px;
+  color: #d32d27;
+  font-size: 100px;
+  margin: 150px 50px 0px;
+  line-height: 0px;
+  font-family: serif;
+  cursor: url("asset/house-cursor.png"), auto;
+}
+.index-text {
+  color: #b12a25;
+  margin: 60px 50px 90px;
+}
+.index-blur:hover {
+  color: transparent;
+  text-shadow: 0px 0px 10px #b12a25;
+}
+
+/* <-----hover-link-----> */
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+  color: #b12a25;
+  text-shadow: 0px 0px 0px #b12a25;
+}
+.home-color {
+  color: #b12a25;
+  text-decoration: none;
+}
+.home-color:hover {
+  opacity: 0;
+}
+/* <-----page-7.html-----> */
+.bg-7 {
+  background-image: url("asset/bike.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.p-7 {
+  color: beige;
+  text-align: left;
+  margin-left: 60px;
+  margin-top: 480px;
+}
+
+.link-7:hover,
+.link-7:visited,
+.link-7:link,
+.link-7:active {
+  text-decoration: none;
+  color: rgb(30, 63, 196);
+  text-shadow: 0px 0px 0px beige;
 }
