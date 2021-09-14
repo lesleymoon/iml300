@@ -2,6 +2,17 @@
   margin: 250px 70px 50px 90px;
 }
 
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+summary {
+  outline: none;
+}
+
 body {
   color: #b12a25;
   text-align: center;
@@ -63,21 +74,21 @@ video {
   text-decoration: none;
 }
 
-.link-5-copy a {
-  color: goldenrod;
-  text-decoration: none;
-}
-
-.link-5-copy a:hover {
-  opacity: 0;
-}
-
 .link-5 a {
   color: #b12a25;
   text-decoration: none;
 }
 
 .link-5 a:hover {
+  opacity: 0;
+}
+
+.link-5-copy a {
+  color: goldenrod;
+  text-decoration: none;
+}
+
+.link-5-copy a:hover {
   opacity: 0;
 }
 
@@ -371,7 +382,7 @@ video {
 }
 
 .moving-shape-3 {
-  position: relative;
+  position: absolute;
   margin: 0px 400px 0px 0px;
   width: 200px;
   height: 200px;
@@ -401,13 +412,13 @@ video {
 }
 
 .moving-shape-4 {
-  position: relative;
-  margin: 400px 0px 0px 0px;
+  position: absolute;
+  margin: 0px 0px 0px 0px;
   width: 400px;
   height: 400px;
   border-radius: 100px;
-  bottom: 700px;
-  left: calc(50% - 285px);
+  bottom: 0px;
+  /* left: calc(50% - 285px); */
   display: block;
   filter: blur(20px);
   z-index: -2;
@@ -418,11 +429,11 @@ video {
 
 .moving-shape-5 {
   position: relative;
-  margin: 0px 400px 0px 0px;
+  margin: 0px 0px 0px 0px;
   width: 200px;
   height: 200px;
   border-radius: 100px;
-  bottom: 800px;
+  bottom: 0px;
   left: calc(50% - 0px);
   display: block;
   filter: blur(20px);
