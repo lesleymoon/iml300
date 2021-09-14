@@ -63,6 +63,15 @@ video {
   text-decoration: none;
 }
 
+.link-5-copy a {
+  color: goldenrod;
+  text-decoration: none;
+}
+
+.link-5-copy a:hover {
+  opacity: 0;
+}
+
 .link-5 a {
   color: #b12a25;
   text-decoration: none;
@@ -133,6 +142,19 @@ video {
 .p-8 a:hover {
   color: rgb(58, 88, 60);
   opacity: 0;
+}
+
+.p-11 a {
+  color: #b12a25;
+  text-decoration: none;
+}
+
+.p-11 a:hover {
+  opacity: 0;
+}
+
+.wandering-11 a {
+  color: #b12a25;
 }
 
 /* <-----index.html-----> */
@@ -419,20 +441,7 @@ video {
   }
 }
 
-/* <-----page-7.html-----> */
-/* .p-8 img {
-  background-image: url("asset/laundry.JPG");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
-} */
-
+/* <-----page-8.html-----> */
 .p-8 {
   background: rgb(225, 233, 148);
   background: radial-gradient(
@@ -445,7 +454,7 @@ video {
 .p-8 {
   color: rgba(55, 78, 57, 0.466);
   text-align: left;
-  margin-left: 50px;
+  margin-left: 80px;
   margin-top: 250px;
   margin-right: 50px;
 }
@@ -505,7 +514,7 @@ video {
 
 .p-9 {
   text-align: center;
-  margin-top: 25px;
+  margin-top: 10px;
   margin-left: 50px;
 }
 
@@ -523,6 +532,7 @@ video {
 
 .home-9 {
   background: #f2f0f1;
+  font-size: 16px;
 }
 
 .alignleft-9 {
@@ -539,7 +549,7 @@ video {
   background: #f2f0f1;
 }
 
-/* <-----page-13.html-----> */
+/* <-----page-11.html-----> */
 .p-11 {
   text-align: center;
   margin-top: 300px;
