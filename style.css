@@ -56,23 +56,23 @@ a:hover {
 
 .left {
   text-align: left;
-  margin-left: 100px;
+  margin-left: 200px;
   /* margin-top: 100px; */
 }
 
 .right {
   text-align: right;
-  margin-right: 100px;
+  margin-right: 200px;
 }
 
 .right-2 {
   text-align: right;
-  margin-right: 100px;
+  margin-right: 200px;
 }
 
 .right-2 a {
   text-align: right;
-  margin-right: 100px;
+  margin-right: 200px;
   text-decoration: none;
 }
 
