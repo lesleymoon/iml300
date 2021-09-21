@@ -1,6 +1,6 @@
 # HOME
 
-![demo]<iframe src="https://giphy.com/embed/WVFSuLvNSRAN1EBJQ2" width="1000" height="700" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/WVFSuLvNSRAN1EBJQ2">via GIPHY</a></p>
+![demo] (https://media.giphy.com/media/WVFSuLvNSRAN1EBJQ2/giphy-downsized-large.gif)
 
 [HOME](https://lesleymoon.github.io/iml300/project-1/) is an interactive web experience blabla (One sentence summary).
 
