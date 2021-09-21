@@ -1,6 +1,6 @@
 # HOME
 
-![Demo] (iml300/home-p1.gif)
+![Demo] (https://github.com/lesleymoon/iml300/blob/main/home-p1.gif)
 
 [HOME](https://lesleymoon.github.io/iml300/project-1/) is an interactive web experience that replicates the wandering of Alzheimer's patients and their journey to find home.
 
