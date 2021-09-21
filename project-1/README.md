@@ -1,6 +1,6 @@
 # HOME
 
-![HOME] <img src="https://media.giphy.com/media/WVFSuLvNSRAN1EBJQ2/giphy-downsized-large.gif" width="1000" height="700" />
+![Demo] (asset/home-p1.gif)
 
 [HOME](https://lesleymoon.github.io/iml300/project-1/) is an interactive web experience that replicates the wandering of Alzheimer's patients and their journey to find home.
 
