@@ -145,5 +145,6 @@ iframe {
 
 .grid-container {
   display: grid;
+  margin-right: 100vw;
   grid-template-columns: auto auto auto auto;
 }
